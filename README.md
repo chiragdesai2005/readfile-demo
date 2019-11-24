@@ -1,5 +1,6 @@
 # Readfile-demo
-Spring Boot application with Thymeleaf template engine and Bootstrap front-end framework
+Build a Spring Boot Batch application that take two input parameters, the first
+one is path to a text file, the second one is number of threads.
 
 - Prerequisites softwares
     - JDK 1.8 or higher
@@ -11,4 +12,14 @@ Spring Boot application with Thymeleaf template engine and Bootstrap front-end f
 
 - How to run the application
 
-    Http URL - http://localhost:8080/file-reader/service/
+    This is a batch appllication without scheduler
+    Application expect exact 2 arguments
+    1 - Fully qualified file path
+    2 - Number of thread count
+    
+- Assumptions
+   - File size is not too big like in GB or TB
+   - Writing file location is in the current application directory
+   
+   
+       
