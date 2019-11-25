@@ -23,6 +23,9 @@ one is path to a text file, the second one is number of threads.
     
     Command - mvn spring-boot:run  -Dspring-boot.run.arguments="/Users/chirag/tt.txt,5"
     
+- Output file
+    It is hard coded in the Filewriter java file but can be read from application.yml file    
+    
 - Assumptions
    - File size is not too big like in GB or TB
    - Writing file location is in the current application directory
