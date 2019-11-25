@@ -13,10 +13,11 @@ import static org.springframework.util.StringUtils.hasText;
 public class InputValidator {
 
     static FileExecutor validate(String[] args) {
+        log.info("Argument size is {}", args.length);
         // command line parameter
         if (args.length != 2) {
             log.info("Invalid command line, exactly two argument required");
-            throw new RuntimeException("Invalid command line, exactly two argument required");
+            throw new RuntimeException("Invalid command line, exactly two argument required. 1 - Input file name && 2 - Thread count");
         }
         if (!hasText(args[0])) {
             log.info("Invalid command line, fully qualified file path required");

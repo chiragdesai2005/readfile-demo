@@ -11,7 +11,7 @@ public class FileEncryptor {
 
     private static final int ALPHABET_SIZE = 26;
 
-    public static String cipher(String message, int rotateBy) {
+    static String cipher(String message, int rotateBy) {
         // rotate by only the size of the alphabet:
         rotateBy %= ALPHABET_SIZE;
         char[] chars = message.toCharArray();

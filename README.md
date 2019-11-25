@@ -12,10 +12,12 @@ one is path to a text file, the second one is number of threads.
 
 - How to run the application
 
-    This is a batch appllication without scheduler
+    This is a batch application without scheduler
     Application expect exact 2 arguments
-    1 - Fully qualified file path
-    2 - Number of thread count
+    1 - Fully qualified file path - for example - /Users/chirag/tt.txt
+    2 - Number of thread count - for example - 5
+    
+    Command - mvn spring-boot:run  -Dspring-boot.run.arguments="/Users/chirag/tt.txt,5"
     
 - Assumptions
    - File size is not too big like in GB or TB
