@@ -5,6 +5,10 @@ one is path to a text file, the second one is number of threads.
 - Prerequisites softwares
     - JDK 1.8 or higher
     - Apache maven 3.0 or higher
+    
+- Test cases
+    - I have tried to add test cases for encryption, file validator and writer
+    - Similarly I can add more test cases for other classes as well like FileExecutor.java    
 
 - How to build the application
    open terminal/command window and run 'mvn clen install' command from the application's home directory 
@@ -22,6 +26,7 @@ one is path to a text file, the second one is number of threads.
 - Assumptions
    - File size is not too big like in GB or TB
    - Writing file location is in the current application directory
+   - We can add more number of test cases for each and every line to cover functionality and code coverage
    
    
        
